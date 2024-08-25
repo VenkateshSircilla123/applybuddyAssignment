@@ -1,0 +1,34 @@
+.dev_work {
+}
+
+@media screen and (max-width: 1145px) {
+  .dev_work {
+    display: flex;
+    flex-direction: column;
+  }
+  .bwc {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wwr {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bwc {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .graphs {
+    display: flex;
+  }
+}
+@media screen and (max-width: 430px) {
+  .sb {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
